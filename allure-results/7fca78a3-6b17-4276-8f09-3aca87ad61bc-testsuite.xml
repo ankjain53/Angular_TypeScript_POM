@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550750741185' stop='1550750759189'>
+    <name>Login into QA Click</name>
+    <title>Login into QA Click</title>
+    <test-cases>
+        <test-case start='1550750741185' status='passed' stop='1550750755901'>
+            <name>Fill the Onboarding Form</name>
+            <title>Fill the Onboarding Form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bc7d6d0c-807b-4387-acc6-963ecb7c3f3b-attachment.png' type='image/png' size='20654'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550750755901' status='passed' stop='1550750759189'>
+            <name>Validation of error message</name>
+            <title>Validation of error message</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8fbd5f5a-ef27-47fb-a8ff-7f2aa018156d-attachment.png' type='image/png' size='21975'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550750759205' stop='1550750775232'>
+    <name>Login into Shopping page</name>
+    <title>Login into Shopping page</title>
+    <test-cases>
+        <test-case start='1550750759220' status='passed' stop='1550750767170'>
+            <name>Purchase Product from shoping website</name>
+            <title>Purchase Product from shoping website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4a4071e7-96a5-4a34-95ef-2313f7112bc9-attachment.png' type='image/png' size='60073'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550750767170' status='passed' stop='1550750768642'>
+            <name>Checkout the Product from the list</name>
+            <title>Checkout the Product from the list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6751c76e-6d8c-4315-9683-254d12a03abd-attachment.png' type='image/png' size='60073'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550750768642' status='passed' stop='1550750769860'>
+            <name>Validation of Total Amount of item in cart</name>
+            <title>Validation of Total Amount of item in cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='44b5b175-b89e-4538-94ca-54ff83597eeb-attachment.png' type='image/png' size='60073'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550750769860' status='failed' stop='1550750775232'>
+            <name>Remove Product from the Cart</name>
+            <title>Remove Product from the Cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4b466684-9f9a-41a0-b9c4-d279752be0ee-attachment.png' type='image/png' size='19090'/>
+            </attachments>
+            <failure>
+                <message>NoSuchElementError: No element found using locator: By(css selector, tbody tr td.text-right h3 strong)</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, tbody tr td.text-right h3 strong)
+                    at elementArrayFinder.getWebElements.then (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+                    at ManagedPromise.invokeCallback_ (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as getText] (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at C:\Users\ankur.jain\eclipse-workspace\Protractor_TypeScript\TypeScript\test2.ts:86:61
+                    at Generator.next (&lt;anonymous>)
+                    at C:\Users\ankur.jain\eclipse-workspace\Protractor_TypeScript\JSFiles\test2.js:7:71
+                    at new Promise (&lt;anonymous>)
+                    at __awaiter (C:\Users\ankur.jain\eclipse-workspace\Protractor_TypeScript\JSFiles\test2.js:3:12)
+                    at AmountValidation (C:\Users\ankur.jain\eclipse-workspace\Protractor_TypeScript\JSFiles\test2.js:62:16)
+                    at Object.&lt;anonymous> (C:\Users\ankur.jain\eclipse-workspace\Protractor_TypeScript\TypeScript\test2.ts:132:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
